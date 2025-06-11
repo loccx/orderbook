@@ -1,11 +1,6 @@
 order book c++
 websocket data injestion
 
-┌────────────┐     ┌────────────┐     ┌──────────────┐     ┌────────────┐
-│ Data Feed  │ --> │ Ring Buffer│ --> │ Order Book   │ --> │ Output API │
-│ (Binance)  │     │ (Lock-free)│     │ (In-memory)  │     │ (CLI / GUI)│
-└────────────┘     └────────────┘     └──────────────┘     └────────────┘
-
 test.cpp:
     kraken websocket test
     binance didn't work for some reason
